@@ -34,7 +34,7 @@
     transition: $transition;
     &:hover,
     :focus {
-      color: $accent-color;
+      @extend %hover-color;
     }
   }
   .item:not(:last-child) {
@@ -67,7 +67,7 @@
     transition: $transition;
     &:hover,
     :focus {
-      color: $accent-color;
+      @extend %hover-color;
       .icon-mail {
         fill: $accent-color;
       }
