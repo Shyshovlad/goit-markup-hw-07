@@ -186,7 +186,7 @@
 
 .form-field .textarea:focus + .textarea-label,
 .form-input:not(:placeholder-shown) + .textarea-label {
-  color: $accent-colo;
+  color: $accent-color;
   transform: translateY(-40px);
 }
 
