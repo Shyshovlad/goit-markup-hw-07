@@ -36,7 +36,7 @@
   transition: $transition;
   cursor: pointer;
   &:hover,
-  :focus {
+  &:focus {
     transform: scale(1.1);
   }
 }

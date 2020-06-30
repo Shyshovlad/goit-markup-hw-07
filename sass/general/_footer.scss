@@ -24,7 +24,7 @@
   letter-spacing: 0.03em;
   transition: $transition;
   &:hover,
-  :focus {
+  &:focus {
     cursor: pointer;
   }
   span {
@@ -42,7 +42,7 @@
   margin-bottom: 9px;
   transition: $transition;
   &:hover,
-  :focus {
+  &:focus {
     @extend %hover-color;
     cursor: pointer;
   }
@@ -52,7 +52,7 @@
   display: block;
   transition: $transition;
   &:hover,
-  :focus {
+  &:focus {
     @extend %hover-color;
   }
 }
@@ -63,7 +63,7 @@
   margin-bottom: 28px;
   transition: $transition;
   &:hover,
-  :focus {
+  &:focus {
     @extend %hover-color;
   }
 }
@@ -110,7 +110,7 @@
   background-color: $form-bg-color;
   transition: $transition;
   &:hover,
-  :focus {
+  &:focus {
     transform: scale(1.05);
   }
 }
@@ -137,7 +137,7 @@
     fill: currentColor;
   }
   &:hover,
-  :focus {
+  &:focus {
     transform: scale(1.05);
   }
 }

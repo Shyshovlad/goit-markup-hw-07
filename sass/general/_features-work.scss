@@ -10,7 +10,7 @@
   position: relative;
   transition: $transition;
   &:hover,
-  :focus {
+  &:focus {
     transform: scale(1.05);
   }
   .product-name {
